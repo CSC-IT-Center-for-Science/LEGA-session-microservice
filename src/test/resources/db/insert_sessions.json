@@ -1,0 +1,74 @@
+{
+	"sessionUserModel": [
+		{
+			"_id" : "1",
+			"_class" : "eu.crg.ega.sessionservice.model.SessionUserModel",
+			"userId" : "542d23f9e4b008de7e1a8048",
+			"status" : "EXPIRED",
+			"user" : {
+				"userId" : "542d23f9e4b008de7e1a8048",
+				"authProviderUserId" : "user1",
+				"fullName" : "user one",
+				"email" : "sabela.delatorre@crg.eu",
+				"institute" : "CRG",
+				"telephone" : "12345",
+				"address" : "address 1234",
+				"loginType" : "INTERNAL",
+				"role" : "ADMIN"
+			},
+			"session" : {
+				"sessionToken" : "1",
+				"expeditionTime" : { "$date" : 1412319600000 },
+				"expirationTime" : { "$date" : 1412323200000 },
+				"method" : "N/A"
+			}
+		},
+		{
+			"_id" : "2",
+			"_class" : "eu.crg.ega.sessionservice.model.SessionUserModel",
+			"userId" : "542d23f9e4b008de7e1a8048",
+			"status" : "ACTIVE",
+			"user" : {
+				"userId" : "542d23f9e4b008de7e1a8048",
+				"authProviderUserId" : "user1",
+				"fullName" : "user one",
+				"email" : "sabela.delatorre@crg.eu",
+				"institute" : "CRG",
+				"telephone" : "12345",
+				"address" : "address 1234",
+				"loginType" : "INTERNAL",
+				"role" : "ADMIN"
+			},
+			"session" : {
+				"sessionToken" : "2",
+				"expeditionTime" : { "$date" : 1412325801995 },
+				"expirationTime" : { "$date" : 3495168000000 },
+				"method" : "N/A"
+			}
+		},
+		{
+			"_id" : "3",
+			"_class" : "eu.crg.ega.sessionservice.model.SessionUserModel",
+			"userId" : "542d2228e4b008de7e1a8046",
+			"status" : "ACTIVE",
+			"user" : {
+				"userId" : "542d2228e4b008de7e1a8046",
+				"authProviderUserId" : "jordi.rambla@crg.eu",
+				"fullName" : "jordi.rambla@crg.eu",
+				"email" : "jordi.rambla@crg.eu",
+				"institute" : "CRG **TEST ACCOUNT**",
+				"telephone" : "",
+				"fax" : "",
+				"address" : "",
+				"loginType" : "REQUESTER",
+				"role" : "USER"
+			},
+			"session" : {
+				"sessionToken" : "3",
+				"expeditionTime" : { "$date" : 1412323200000 },
+				"expirationTime" : { "$date" : 3495168000000 },
+				"method" : "N/A"
+			}
+		}
+	]
+}
