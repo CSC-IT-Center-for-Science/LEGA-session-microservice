@@ -221,7 +221,8 @@
                     <generateGitPropertiesFile>true</generateGitPropertiesFile>
                     <generateGitPropertiesFilename>src/main/resources/git.properties
                     </generateGitPropertiesFilename>
-                    <failOnNoGitDirectory>false</failOnNoGitDirectory>
+		    <failOnNoGitDirectory>false</failOnNoGitDirectory>
+		    <failOnUnableToExtractRepoInfo>false</failOnUnableToExtractRepoInfo>
                     <abbrevLength>7</abbrevLength>
                     <skip>false</skip>
                     <excludeProperties>
